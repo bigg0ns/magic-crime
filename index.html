@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Magic Crime</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main id="game-shell">
+    <canvas id="game" width="960" height="540" aria-label="Magic Crime game"></canvas>
+    <section id="hud">
+      <div><span class="label">HEAT</span><span id="heat">0</span></div>
+      <div><span class="label">CASH</span><span id="cash">$0</span></div>
+      <div><span class="label">MISSION</span><span id="mission">Find the marker</span></div>
+    </section>
+  </main>
+  <aside id="help">
+    <strong>MAGIC CRIME</strong>
+    <p>WASD / arrows: move<br />Shift: sprint<br />E: action / vehicle<br />F: magic blast<br />R: reset</p>
+  </aside>
+  <script src="game.js"></script>
+</body>
+</html>
