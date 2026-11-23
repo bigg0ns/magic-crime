@@ -1,2 +1,6 @@
 git clone https://github.com/bigg0ns/magic-crime.git
 cd magic-crime
+
+git add index.html styles.css game.js
+git commit -m "Add playable Magic Crime MVP"
+git push origin main
